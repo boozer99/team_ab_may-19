@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Resume1</title>
+
+<meta name="viewport" content="width=device-width"/>
+<meta name="description" content="The Curriculum Vitae of Joe Bloggs."/>
+<meta charset="UTF-8"> 
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+<link type="text/css" rel="stylesheet" href="resume2.css">
+<link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700|Lato:400,300' rel='stylesheet' type='text/css'>
+ <link rel="stylesheet" type="text/css" href="bootstrap.css">
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+<body id="top">
+<div id="cv">
+	<div class="mainDetails">
+		
+		<div>
+			<h1>Resume</h1>
+			
+		</div>
+		
+		<div id="contactDetails">
+			<ul>
+				<li><input type = "text" placeholder = "Name" id="name"></li>
+				<li><input type = "text" placeholder = "E-mail" id="email"></li>
+				<li><input type = "text" placeholder = "Mobile" id="number"></li>
+			</ul>
+		</div>
+		<div class="clear"></div>
+	</div>
+	
+	<div id="mainArea">
+		<section>
+			<article>
+				<div class="sectionTitle">
+					<h1>Personal Profile</h1>
+				</div>
+				
+				<div class="sectionContent">
+					<textarea rows = "10" cols = "70" id="profile"></textarea>
+				</div>
+			</article>
+			<div class="clear"></div>
+		</section>
+		
+		
+		<section>
+			<div class="sectionTitle">
+				<h1>Education</h1>
+			</div>
+			
+			<div class="sectionContent">
+				<article>
+					<h2>School</h2>
+					
+					<textarea rows = "10" cols = "70" id="school"></textarea>
+				</article>
+				
+				<article>
+					<h2>Institute</h2>
+					
+					<textarea rows = "10" cols = "70" id="institute"></textarea>
+				</article>
+				
+				
+			</div>
+			<div class="clear"></div>
+		</section>
+		
+		
+		
+		
+		<section>
+			<div class="sectionTitle">
+				<h1>Project Undertaken</h1>
+			</div>
+			
+			<div class="sectionContent">
+				<article>
+					<h2>Project Title</h2>
+					<input type = "text" class="subDetails" placeholder = "Title" id="title1"></input>
+					<textarea rows = "10" cols = "70" id="project1"></textarea>
+				</article>
+				
+				<article>
+					<h2>Project Title</h2>
+					<input type = "text" class="subDetails" placeholder = "Title" id="title2"></input>
+					<textarea rows = "10" cols = "70" id="project2"></textarea>
+				</article>
+			</div>
+			<div class="clear"></div>
+		</section>
+		
+	</div>
+</div>
+<button type="button" class="btn btn-success btn-lg" id="create">Create Resume</button>
+<a href="preview2.html"> <button type="button" class="btn btn-success btn-lg" id="preview">Preview Resume</button></a>
+</body>
+<script type="text/javascript" src="ui.js">
+	var num= 2;
+</script>
+</html>

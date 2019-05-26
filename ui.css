@@ -1,0 +1,47 @@
+#formm{
+	display: block;
+	float:right;
+}
+.a{
+	color:green;
+	font-family: 'Pacifico', cursive;
+	margin:50px;
+	font-size: 50px;
+}
+#img1{
+	height:800px;
+	width:800px;
+}
+body{
+	
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image:url('pallete.jpg');
+
+}
+#container{
+	padding: 30px;
+}
+#but1{
+	width:200px;
+	height: 50px;
+}
+#img2{
+	height:800px;
+	width:800px;
+}
+#but2{
+	width:200px;
+	height: 50px;
+}
+#one{
+	margin:50px;
+}
+#two{
+	margin:50px;
+}
+#dots{
+	color:blue;
+	font-size: 50px;
+}

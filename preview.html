@@ -1,0 +1,110 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <title>Resume 2</title>
+  
+  <link rel="stylesheet" href="resume.css">
+   <link rel="stylesheet" type="text/css" href="bootstrap.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+</head>
+<body>
+  <div class="container">
+  <header>
+    <div id="name"></div>
+     <div class="contact">
+      <div id="email"></div>
+    
+    
+      <div id="number"></div>
+      
+    
+    </div>
+    
+   
+    
+  </header>
+  
+  <div class="content" role=main>
+  
+    <section id="objective">
+      <h2 class="title">Personal Profile</h2>
+      <div class="description">
+        <div id="profile"></div>      
+      </div> <!-- end description -->
+    </section>
+    
+    
+    <section>
+      <div class="sectionTitle">
+        <h1>Education</h1>
+      </div>
+      
+      <div class="sectionContent">
+        <article>
+          <h2>School</h2>
+          
+          <div id="school"></div>
+        </article>
+        
+        <article>
+          <h2>Institute</h2>
+          
+          <div id="institute"></div>
+        </article>
+        
+        
+      </div>
+      <div class="clear"></div>
+    </section>
+      
+    <section id="projects">
+      <h2 class="title">Projects Undertaken</h2>
+      <div class="description">
+        
+        <!-- Project 1 -->
+        <section class="project">
+          <div id="title1"></div>
+          <div class="meta">
+            <span class="field">Project Field</span> 
+            
+          </div>
+          <div id="project1"></div>
+        </section> <!-- end project description -->
+        
+        <!-- project 2 -->
+        <section class="project">
+          <div id="title2"></div>
+          <div class="meta">
+            <span class="field">Project Field</span> 
+            
+          </div>
+          <div id="project2"></div>
+        </section> <!-- end project description -->
+
+
+        <!-- project 3 -->
+        <!-- end project description -->       
+        
+        </div> <!-- end description -->
+    </section>  
+  
+  
+ 
+  
+  </div> <!-- end main content -->
+</div>
+</body>
+<script type="text/javascript">
+	document.getElementById('name').innerText=localStorage.getItem('name');
+	document.getElementById('email').innerText=localStorage.getItem('email');
+	document.getElementById('number').innerText=localStorage.getItem('number');
+	document.getElementById('profile').innerText=localStorage.getItem('profile');
+	document.getElementById('school').innerText=localStorage.getItem('school');
+	document.getElementById('institute').innerText=localStorage.getItem('institute');
+	document.getElementById('title1').innerText=localStorage.getItem('title1');
+	document.getElementById('project1').innerText=localStorage.getItem('project1');
+	document.getElementById('title2').innerText=localStorage.getItem('title2');
+	document.getElementById('project2').innerText=localStorage.getItem('project2');
+</script>
+</html>
